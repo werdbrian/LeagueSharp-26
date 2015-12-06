@@ -1253,7 +1253,7 @@ namespace EloFactory_TwistedFate
         public static void Drawing_OnDraw(EventArgs args)
         {
 
-            foreach (var spell in SpellList)
+           /* foreach (var spell in SpellList)
             {
                 var menuItem = Config.Item(spell.Slot + "Range").GetValue<Circle>();
                 if (menuItem.Active)
@@ -1265,7 +1265,7 @@ namespace EloFactory_TwistedFate
                 var orbT = Orbwalker.GetTarget();
                 if (orbT.IsValidTarget())
                     Render.Circle.DrawCircle(orbT.Position, 100, System.Drawing.Color.Pink);
-            }
+            }*/
 
         }
         #endregion
